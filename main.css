@@ -11,14 +11,14 @@ body {
 
 /* Nav Bar */
 
-#nav ul {
+nav ul {
 	text-align: center;
 	font-size: 1.1em;
 	margin: 15px 0px;
 	padding: 0px;
 }
 
-#nav li {
+nav li {
 	background-color: #888;
 	color: white;
 	border-radius: 7px;
@@ -33,11 +33,11 @@ body {
 	transition: background-color .17s;
 }
 
-#nav li:hover {
+nav li:hover, nav .active {
 	background-color: #777;
 }
 
-#nav li:active {
+nav li:active {
 	background-color: #aaa;
 }
 
@@ -46,10 +46,10 @@ body {
 
 h1 {
 	color: #444;
-	margin: 8px 0px;
+	/*margin: 8px 0px;*/
 }
 
-.content {
+article {
 	background-color: #eee;
 	border-radius: 10px;
 	/*text-align: justify;*/
@@ -82,9 +82,11 @@ h1 {
 	width: 23%;
 	margin: 10px 1%;
 
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
-.projDescription {
+.hoverOverlay {
 	background-color: #555;
 	color: #fff;
 
@@ -93,24 +95,23 @@ h1 {
 	left: 0px;
 	width: 100%;
 	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	border-radius: inherit;
 
 	opacity: 0;
 	transition: opacity .25s;
 }
 
-
-.projThumbnail:hover > .projDescription {
-	opacity: .85;
+.hoverOverlay:hover {
+	opacity: .75;
 }
 
 .text {
 	padding: 12px 15px;
 }
 
-.fitImage {
-	max-width: 100%;
-	height: auto;
-}
 
 
 
