@@ -66,14 +66,14 @@ article {
 
 /* Project Thumbs */
 
-.projThumbnail , .projDescription {
+projectThumb {
 	border-radius: 10px;
 	height: 150px;
 	padding: 0;
 	overflow: hidden;
 }
 
-.projThumbnail {
+projectThumb {
 	background-color: #fff;
 	
 	float: left;
@@ -108,7 +108,7 @@ article {
 	opacity: .75;
 }
 
-.text {
+.paddedText {
 	padding: 12px 15px;
 }
 
