@@ -50,7 +50,7 @@ h1 {
 }
 
 article {
-	background-color: #eee;
+	background-color: #efefef;
 	border-radius: 10px;
 	/*text-align: justify;*/
 
@@ -58,10 +58,21 @@ article {
 	min-width: 600px;
 	max-width: 900px;
 	margin: 0px auto 15px;
-	padding: 15px 45px;
+	padding: 15px 45px 30px;
 }
 
 
+aside {
+	background-color: #888;
+
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin: 0px 15px 10px;
+
+	float: right;
+	width: 40%;
+	overflow: hidden;
+}
 
 
 /* Project Thumbs */
@@ -112,7 +123,9 @@ projectThumb {
 	padding: 12px 15px;
 }
 
-
+.width100 {
+	width: 100%;
+}
 
 
 
