@@ -1,0 +1,22 @@
+
+Home page:
+	What goes on home page?
+		Intro text, slideshow, links
+
+Project thumbs page:
+	Create thumbs with precompile commands
+
+Project page:
+	What goes on project page?
+		Screenshots, description, links
+
+About page:
+	Description, photo
+
+Contact:
+	Links, email address, etc
+
+Appearance:
+	More saturated colors
+	Something more interesting with background?
+	Pick font
