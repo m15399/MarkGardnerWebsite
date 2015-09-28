@@ -2,7 +2,7 @@
 body {
 	background-color: #c8c8c8;
 	color: black;
-	/*font-family: Helvetica;*/
+	font-family: Helvetica;
 
 	margin: 0px;
 	padding: 0px;
@@ -82,9 +82,7 @@ projectThumb {
 	height: 150px;
 	padding: 0;
 	overflow: hidden;
-}
 
-projectThumb {
 	background-color: #fff;
 	
 	float: left;
@@ -95,6 +93,13 @@ projectThumb {
 
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+
+projectThumb h1 {
+	color: #fff;
+	font-size: 1.3em;
+	margin: 0;
+	padding: .2em 0 .5em;
 }
 
 .hoverOverlay {

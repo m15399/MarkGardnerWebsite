@@ -18,7 +18,7 @@
 		//       <div class='paddedText'>Description</div
 		//     </div>
 		//   </projectThumb
-		var text = thumb.innerText;
+		var text = thumb.innerHTML;
 		thumb.innerHTML = '';
 
 		var overlay = document.createElement('div');
@@ -26,7 +26,7 @@
 
 		var description = document.createElement('div');
 		description.className = 'paddedText';
-		description.innerText = text;
+		description.innerHTML = text;
 
 		overlay.appendChild(description);
 		thumb.appendChild(overlay);
